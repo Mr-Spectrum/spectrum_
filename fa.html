@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Персональный Бэкенд</title>
+    <title>Привет</title>
     <link rel="stylesheet" href="style.css">
 
     <style>
@@ -42,9 +42,10 @@
 
             try {
             
-                // Формируем динамический URL: добавляем имя в конец запроса (?name=Значение)
-                const url = `http://localhost:8080/api/hello?name=${encodeURIComponent(userName)}`;
-                
+                // Вместо localhost вставьте ссылку на ваш Web Service от Render:
+            const url = `https://spectrum-n2de.onrender.com/{encodeURIComponent(userName)}`;
+
+
                 const response = await fetch(url);
                 const data = await response.json();
                 

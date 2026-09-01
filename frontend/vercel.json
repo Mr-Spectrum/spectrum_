@@ -1,6 +1,6 @@
 {
   "rewrites": [
-    { "source": "/api/(.*)", "destination": "https://spectrum-backend-one.vercel.app/" },
+    { "source": "/api/(.*)", "destination": "hhttps://spectrum-backend-git-main-mr-spectrum.vercel.app/" },
     { "source": "/(.*)", "destination": "/index.html" }
   ]
 }

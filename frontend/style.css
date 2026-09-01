@@ -1,0 +1,10 @@
+h2 { color: lightgray!important; }
+div { color: lightgray!important; }
+body {
+    background-image: url('./images/Moon'); /* Имя вашей картинки */
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size: 600px;
+    background-attachment: fixed;
+    margin: 0;
+}

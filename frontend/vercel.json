@@ -1,5 +1,6 @@
 {
   "rewrites": [
+    { "source": "/api/(.*)", "destination": "https://vercel.app" },
     { "source": "/(.*)", "destination": "/index.html" }
   ]
 }

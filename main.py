@@ -26,4 +26,4 @@ def say_hello():
 # Новый маршрут, который принимает имя (name) в качестве параметра
 @app.get("/api/hello")
 def say_hello_personally(name: str = "Гость"):
-    return jsonify({"message": f"Привет, {user_name}!"})
+    return jsonify({"message": f"Привет, {name}!"})

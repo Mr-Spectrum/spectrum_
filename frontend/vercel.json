@@ -1,7 +1,8 @@
 {
   "rewrites": [
-    { "source": "/api/(.*)", "destination": "https://vercel.app" },
+    { "source": "/api/(.*)", "destination": "https://spectrum-backend-one.vercel.app/" },
     { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
+
 
